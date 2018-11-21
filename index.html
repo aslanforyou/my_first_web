@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:margin-top="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <!-- Bootstrap -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="./index.js"></script>
+<script src="vanilla.js"></script>
+
+<style>
+    div:last-child {
+        width: 450px;
+    }
+</style>
+
+<div class="row-fluid">
+
+    <div class="col-lg-2">
+        <h4>HOME</h4>
+        <div class="btn-group">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>select Home to edit</span>
+                    <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="DropDown">
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-lg-2" id="form">
+        <h4>Edit Home</h4>
+        <div class="input-group">
+            <input type="text" class="form-control" id="text" placeholder="Choose above"/>
+            <span class="input-group-btn">
+                <button class="btn btn-default" id="btn" type="button">Save</button>
+            </span>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
